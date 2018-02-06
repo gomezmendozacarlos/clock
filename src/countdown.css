@@ -1,0 +1,26 @@
+body {
+    padding-top: 100px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.clock {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.clock-digits {
+    border: 2px solid gray;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.clock-numbers {
+    height: 70%;
+    font-size: 60px;
+}
